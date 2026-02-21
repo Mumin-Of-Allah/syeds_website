@@ -1,0 +1,143 @@
+/* page background */
+.contact-page {
+    background: black;
+    padding: 50px 20px;
+    color: white;
+}
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* two column layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* form box */
+.form-wrapper {
+    background: black;
+    padding: 25px;
+    border: 1px solid #d4af37;
+    color: white;
+}
+
+/* form styling */
+.inquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inquiry-form input,
+.inquiry-form select,
+.inquiry-form textarea {
+    padding: 12px;
+    border: 1px solid #bbb;
+    width: 100%;
+    font-size: 14px;
+}
+
+.inquiry-form button {
+    padding: 12px;
+    border: 2px solid #f4a300;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.inquiry-form button:hover {
+    background: #f4a300;
+    color: white;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.map-container {
+    width: 100%;
+    height: 300px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+/* tablet */
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    .contact-page {
+        padding: 30px 15px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .form-wrapper {
+        padding: 20px;
+    }
+
+    .form-title,
+    .section-title {
+        font-size: 20px;
+    }
+
+    .inquiry-form input,
+    .inquiry-form select,
+    .inquiry-form textarea {
+        font-size: 16px; /* better mobile typing */
+        padding: 14px;
+    }
+
+    .inquiry-form button {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .map-container {
+        height: 250px;
+    }
+}
+
+/* small phones */
+@media (max-width: 480px) {
+
+    .contact-page {
+        padding: 25px 12px;
+    }
+
+    .form-wrapper {
+        padding: 15px;
+    }
+
+    .form-title,
+    .section-title {
+        font-size: 18px;
+    }
+
+    .map-container {
+        height: 220px;
+    }
+}
+.contact-info p {
+    line-height: 1.6;
+    word-break: break-word;
+}

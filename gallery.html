@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/Style.css">
+<script src="js/gallery.js" id="gallery"></script>
+<script src="js/lib.js" id="lib"></script>
+
+</head>
+<body>
+    <div id="header"></div>
+<div class="gallery-container">
+    <h1 class="gallery-title">Our Gallery</h1>
+
+    <div class="gallery-grid">
+        <img src="Public/Photos/gallery1.jpeg" data-index="0">
+        <img src="Public/Photos/gallery2.jpeg" data-index="1">
+        <img src="Public/Photos/gallery3.jpeg" data-index="2">
+        <img src="Public/Photos/logo-main.png" data-index="3">
+    </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <span class="close-btn" id="closeBtn">✖</span>
+    <img id="lightbox-img">
+
+    <div class="controls">
+        <button id="prevBtn">⬅ Prev</button>
+        <button id="nextBtn">Next ➡</button>
+    </div>
+</div>
+<div id="footer"></div>
+
+</body>
+</html>

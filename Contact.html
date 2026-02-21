@@ -1,0 +1,73 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/Style.css">
+<link rel="stylesheet" href="css/about.css">
+<script src="js/lib.js" id="lib"></script>
+</head>
+<body>
+
+    <div id="header"></div>
+    
+    <section class="contact-page">
+    
+        <div class="container contact-grid">
+    
+            <!-- LEFT : Inquiry Form -->
+            <div class="form-wrapper">
+                <h2 class="form-title">Property Inquiry</h2>
+    
+                <form action="https://formspree.io/f/mzdaaakd" method="POST" class="inquiry-form">
+    
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+    
+                    <select name="property_type" required>
+                        <option value="">Select Property Type</option>
+                        <option value="Plots">Plots</option>
+                        <option value="Apartments">Apartments</option>
+                        <option value="Villas">Villas</option>
+                    </select>
+    
+                    <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+    
+                    <button type="submit">Send Inquiry</button>
+    
+                </form>
+            </div>
+    
+            <!-- RIGHT : Contact + Map -->
+            <div class="contact-info">
+    
+                <h2 class="section-title">Our Office Location</h2>
+    
+                <p>
+                    No 862, Prabhat Arcade, Third Floor,<br>
+                    80 Feet Rd, 8th Block Opp: Koramangala Indoor Stadium Back Gate,<br>
+                    Bengaluru, Karnataka 560095
+                </p>
+    
+                <p>
+                    <strong>Sales Support:</strong><br>
+                    +91 8660304161<br>
+                    +91 90712 04208
+                </p>
+    
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3888.4472368962083!2d77.62178039550781!3d12.943208694458008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae155ee56b4d63%3A0x81733e9fff495258!2sDoctor%20Birth!5e0!3m2!1sen!2sin!4v1771552084094!5m2!1sen!2sin">
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <div id="footer"></div>
+    
+    </body>
