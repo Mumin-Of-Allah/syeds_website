@@ -193,10 +193,7 @@ nav {
     object-fit: cover;
     z-index: -2;
 }
-@media (max-width: 768px) {
-    .bg-video {
-        display: none;
-    }
+
 
     .hero {
         background: url('../Public/Photos/gallery1.jpeg') center/cover no-repeat;
@@ -788,4 +785,5 @@ header[style*="rgba(255"] {
     max-width: 1200px;
     margin: auto;
 }
+
 </style>
